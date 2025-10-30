@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<style>
+    body {
+        background-color: black;
+    }
+
+    header {
+        background-color: rgb(15, 15, 15);
+        background-image: url('pexels-cmonphotography-1809644.jpg');
+        background-size: cover;
+        position: center;
+        background-repeat: no-repeat;
+        /* height: 100vh; */
+
+    }
+
+    .navbar {
+        background-color: black !important;
+        color: azure;
+        border-radius: 0px;
+
+    }
+
+    .nav-link:hover {
+        color: #00ffff !important;
+    }
+
+    /* .btn {
+        background-color: #00ffff;
+        border: none;
+        font-size: 1.2rem;
+    } */
+
+    /* .btn:hover {
+        color: #419797;
+    } */
+
+    .old-price {
+
+        color: #e51111;
+        text-decoration: line-through;
+
+
+    }
+
+    .card {
+        transition: transform 0.5s ease;
+
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 10px 10px rgba(200, 200, 200, 0.4);
+
+    }
+
+    .con {
+        background-color: rgb(9, 9, 9);
+
+    }
+
+    .ser {
+        font-size: 80px;
+        color: rgb(87, 79, 127);
+        margin-top: 20px;
+    }
+
+    .hb {
+        background-color: black;
+        color: white;
+        margin-right: 50px;
+    }
+</style>
+
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Harsh</a>
+
+                <!-- toggle button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- offcanvas -->
+                <div class="offcanvas offcanvas-start bg-dark text-white" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+
+                    <div class="offcanvas-body">
+                        <div class="navbar-nav">
+                            <a class="nav-link text-white" href="index.html"><i class="fas fa-home"></i> Home</a>
+                            <a class="nav-link text-white" href="profile.html"><i class="fas fa-user"></i> Profile</a>
+                            <a class="nav-link text-white" href="#"><i class="fas fa-info-circle"></i> About</a>
+                            <a class="nav-link text-white" href="contact.html"><i class="fas fa-envelope"></i>
+                                Massage</a>
+                            <a class="nav-link text-white" href="login.html"><i class="bi bi-box-arrow-in-right"></i>
+                                Login </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+
+        <div class=" hero container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 style="text-align:center; color:#00ffff; margin-top: 100px;">
+                        <i class="fa-solid fa-globe" style="color:#00ffff; margin-right:10px;"></i>
+                        Welcome to HC Developer
+                    </h1>
+                    <h3 style="text-align:center; color:#eac715; margin-top: 30px; ">We Build Creative Digital Solutions
+                        🚀
+                    </h3>
+                    <p style="text-align:center; color:#0ef2fe ">
+                        From website design to digital marketing — we help you grow your online presence.<br>
+                        Contact us to get started today!
+                    </p>
+                    <div class="button text-center align-item-center mb-2">
+                        <button type="button" class="btn btn-light"><i class="fas fa-rocket"></i>View</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="text-align:center; margin-top:30px;">
+            <a href="https://instagram.com/_h_a_r_s_h_u_1106" style="color:#E1306C; margin:0 10px; font-size:24px;">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://facebook.com/Harsh Chauhan" target="_blank"
+                style="color:#1877F2; margin:0 10px; font-size:24px;">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://wa.me/your-number" target="_blank" style="color:#25D366; margin:0 10px; font-size:24px;">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://github.com/harsh2006103/HarshChauhan" target="_blank"
+                style="color: rgb(243, 237, 237); margin: 0px 10px; font-size: 24px;">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="mailto:harshchetanchauhan@gmail.com" target="_blank"
+                style="color: #082852; margin: 0px 10px; font-size: 24px;">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="tel:+918758609930" target="_blank" style="color: #5092e8; margin: 0px 10px; font-size: 24px;">
+                <i class="fas fa-phone"></i>
+            </a>
+        </div>
+    </header>
+    <div class="text text-center my-5 ">
+        <h2 style="color: orange;">Popular Hotels in India</h2>
+        <p style="color: rgb(104, 70, 5);">
+            Explore India’s most beautiful and popular hotels for a memorable stay.
+        </p>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-extra-lg-6">
+                <div class="cantainer">
+                    <!-- card-1 -->
+                    <div class="card my-2" style=" background-color: black; color: white;">
+                        <img src="hotel2.png" alt="card" class=" img-fluid " style="border-radius: 13px;">
+                        <div class="card-body">
+                            <h5>The Oberoi Udaivilas, Udaipur</h5>
+
+                            <div class="service-item my-1" style="font-size: 17px;">
+                                <i class="fas fa-clock" style="color: orange; "></i>
+                                <span>7:00am to 10:00pm</span>
+                            </div>
+                            <div class="lunch-item my-2" style="font-size: 17px;">
+                                <i class="fas fa-utensils" style="color: orange; "></i>
+                                <span>12:30 pm to 2:30 pm</span>
+                            </div>
+                            <div class="contect-item my-2" style="font-size: 17px;">
+                                <i class="fas fa-phone" style="color: orange; "></i>
+                                <span>+91 254 288 9652</span>
+                            </div>
+                            <div>
+                                <h2 style="color: orange;">$450</h2>
+                            </div>
+                            <div class=" d-flex">
+                                <button type="button" class="hb btn btn-light ">Show
+                                    More</button>
+                                <button type="button" class="hb1 btn btn-light">BOOK
+                                    NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card-2 -->
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-extra-lg-6">
+                <div class="cantainer">
+                    <div class="card my-2" style=" background-color: black; color: white;">
+                        <img src="hotel1.png" alt="card" class=" img-fluid " style="border-radius: 13px;">
+                        <div class="card-body">
+                            <h5>The Raj Palace, Jaipur</h5>
+
+                            <div class="service-item my-1" style="font-size: 17px;">
+                                <i class="fas fa-clock" style="color: orange; "></i>
+                                <span>6:00am to 10:00pm</span>
+                            </div>
+                            <div class="lunch-item my-2" style="font-size: 17px;">
+                                <i class="fas fa-utensils" style="color: orange; "></i>
+                                <span>12:00 pm to 2:30 pm</span>
+                            </div>
+                            <div class="contect-item my-2" style="font-size: 17px;">
+                                <i class="fas fa-phone" style="color: orange; "></i>
+                                <span>+91 454 488 5453</span>
+                            </div>
+                            <div>
+                                <h2 style="color: orange;">$320</h2>
+                            </div>
+                            <div class=" d-flex ">
+                                <button type="button" class="hb btn btn-light ">Show
+                                    More</button>
+                                <button type="button" class="hb1 btn btn-light">BOOK
+                                    NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card-2 -->
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-extra-lg-6">
+                <div class="cantainer">
+                    <div class="card my-2" style=" background-color: black; color: white;">
+                        <img src="hotel3.png" alt="card" class=" img-fluid " style="border-radius: 13px;">
+                        <div class="card-body">
+                            <h5>Daksh Hotal, Sasan Gir</h5>
+
+                            <div class="service-item my-1" style="font-size: 17px;">
+                                <i class="fas fa-clock" style="color: orange; "></i>
+                                <span>6:00am to 11:00pm</span>
+                            </div>
+                            <div class="lunch-item my-2" style="font-size: 17px;">
+                                <i class="fas fa-utensils" style="color: orange; "></i>
+                                <span>12:00 pm to 1:30 pm</span>
+                            </div>
+                            <div class="contect-item my-2" style="font-size: 17px;">
+                                <i class="fas fa-phone" style="color: orange; "></i>
+                                <span>+91 782 156 8205</span>
+                            </div>
+                            <div>
+                                <h2 style="color: orange;">$320</h2>
+                            </div>
+                            <div class=" d-flex ">
+                                <button type="button" class="hb btn btn-light ">Show
+                                    More</button>
+                                <button type="button" class="hb1 btn btn-light">BOOK
+                                    NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- hotel service section -->
+    <div class="service text-center my-5">
+        <h2 style="color: orange;">for “Hotel Services” section</h2>
+        <p style="color: rgb(104, 70, 5);">“From relaxing spa treatments to delicious dining, we provide everything you
+            need for a comfortable and
+            memorable stay.”</p>
+    </div>
+    <!-- card-1 -->
+    <div class=" con container">
+        <div class="row">
+            <div class="col-6 col-sm-12 col-md-6 col-lg-3 col-extra-ld-6">
+                <div class="card my-2 " style=" background-color: black; color: white;">
+                    <i class=" ser fas fa-bell-concierge service-icon text-center "></i>
+                    <div class="card-body">
+                        <h2 class="card-title">Room Services</h2>
+                        <p>24/7 Room Service,
+                            Food and help available </p>
+                    </div>
+                </div>
+            </div>
+            <!-- card-2 -->
+            <div class="col-6 col-sm-12 col-md-6 col-lg-3 col-extra-ld-6">
+                <div class="card my-2" style=" background-color: black; color: white;">
+                    <i class=" ser fas fa-swimming-pool service-icon text-center "></i>
+                    <div class="card-body">
+                        <h2 class="card-title">Swimming Pool </h2>
+                        <p>Swimming Pool,
+                            Relaxing luxury pool experience </p>
+                    </div>
+                </div>
+            </div>
+            <!-- card-3 -->
+            <div class="col-6 col-sm-12 col-md-6 col-lg-3 col-extra-ld-6">
+                <div class="card my-2" style=" background-color: black; color: white;">
+                    <i class=" ser fas fa-utensils service-icon text-center "></i>
+                    <div class="card-body">
+                        <h2 class="card-title">Restaurant Service</h2>
+                        <p>SRestaurant.
+                            Breakfast, lunch, dinner ni facility</p>
+                    </div>
+                </div>
+            </div>
+            <!-- card-4 -->
+            <div class="col-6 col-sm-12 col-md-6 col-lg-3 col-extra-ld-6">
+                <div class="card my-2" style=" background-color: black; color: white;">
+                    <i class=" ser fas fa-wifi service-icon text-center "></i>
+                    <div class="card-body">
+                        <h2 class="card-title">Free Wi-Fi Service</h2>
+                        <p>Free Wi-Fi,
+                            Free internet service password-124356</p>
+                    </div>
+                </div>
+            </div>
+            <!-- card-5 -->
+            <div class="col-6 col-sm-12 col-md-6 col-lg-3 col-extra-ld-6">
+                <div class="card my-2" style=" background-color: black; color: white;">
+                    <i class=" ser fas fa-spa service-icon text-center "></i>
+                    <div class="card-body">
+                        <h2 class="card-title">Wellness Service</h2>
+                        <p>Spa & Wellness
+                            Body massage ane relaxation </p>
+                    </div>
+                </div>
+            </div>
+            <!-- card-6 -->
+            <div class="col-6 col-sm-12 col-md-6 col-lg-3 col-extra-ld-6">
+                <div class="card my-2" style=" background-color: black; color: white;">
+                    <i class=" ser fas fa-dumbbell service-icon text-center "></i>
+                    <div class="card-body">
+                        <h2 class="card-title">Exercise Service</h2>
+                        <p>Gym,
+                            Exercise and stay fit during your stay</p>
+                    </div>
+                </div>
+            </div>
+            <!-- card-7 -->
+            <div class="col-6 col-sm-12 col-md-6 col-lg-3 col-extra-ld-6">
+                <div class="card my-2" style=" background-color: black; color: white;">
+                    <i class=" ser fas fa-car service-icon text-center "></i>
+                    <div class="card-body">
+                        <h2 class="card-title">Parking Service</h2>
+                        <p>Free Parking,
+                            Secure and free parking space</p>
+                    </div>
+                </div>
+            </div>
+            <!-- card-8 -->
+            <div class="col-6 col-sm-12 col-md-6 col-lg-3 col-extra-ld-6">
+                <div class="card my-2" style=" background-color: black; color: white;">
+                    <i class=" ser fas fa-plane service-icon text-center "></i>
+                    <div class="card-body">
+                        <h2 class="card-title">Airport Transfer </h2>
+                        <p>Airport Transfer,
+                            Pickup and drop-off service</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- managment staff heding-->
+    <div class="staff text-center my-5">
+        <h2 style="color: orange;">Hotel Management Staff</h2>
+        <p style="color:rgb(104, 70, 5) ;">Our staff ensures smooth service and a pleasant stay for every guest.</p>
+    </div>
+    <!-- managment staff -->
+    <div class="con container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-extra-lg-6">
+                <!-- card-1 -->
+                <div class="card my-2" style=" background-color: black; color: white;">
+                    <i class="ser fa-solid fa-user-tie text-center"> </i>
+                    <div class="card-body">
+                        <h2>hotel Owner / Founder</h2>
+                        <p>👑 The person who owns and starts the hotel. They invest money, make big business decisions,
+                            and
+                            guide the overall vision of the hotel.</p>
+                    </div>
+                    <p class="mb-1 text-center"><i class="fa-regular fa-clock " style="color: orange;"></i> 10:00 -
+                        12:00</p>
+                    <p class="mb-2 text-center"><i class="fa-solid fa-phone " style="color: orange;"></i> +91
+                        321-710-8850</p>
+                    <div class="d-flex my-2 mx-2">
+                        <div>
+                            <img src="harshchauhan.jpg" class="rounded-circle shadow" alt="responsive image"
+                                width="75px" height="75px">
+                        </div>
+                        <div>
+                            <h4 class="mx-2 my-1">harsh Chauhan</h4>
+                            <p class="mx-2 my-1">Owner / Founder</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-extra-lg-6">
+                <!-- card-2 -->
+                <div class="card my-2" style=" background-color: black; color: white;">
+                    <i class="ser fa-solid fa-user-check text-center"> </i>
+                    <div class="card-body">
+                        <h2>Managing Director</h2>
+                        <p>📊 Responsible for daily hotel operations. The MD manages departments, checks performance,
+                            and
+                            ensures smooth working under the CEO’s guidance.</p>
+                    </div>
+                    <p class="mb-1 text-center"><i class="fa-regular fa-clock " style="color: orange;"></i> 07:00 -
+                        15:00</p>
+                    <p class="mb-2 text-center"><i class="fa-solid fa-phone " style="color: orange;"></i> +91
+                        856-782-7459</p>
+                    <div class="d-flex my-2 mx-2">
+                        <div>
+                            <img src="download.png" class="rounded-circle shadow" alt="responsive image" width="75px"
+                                height="75px">
+                        </div>
+                        <div>
+                            <h4 class="mx-2 my-1">Mehul kacha</h4>
+                            <p class="mx-2 my-1">Managing Director</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-extra-lg-6">
+                <!-- card-3 -->
+                <div class="card my-2" style=" background-color: black; color: white;">
+                    <i class="ser fa-solid fa-tools fa-2x text-center"> </i>
+                    <div class="card-body">
+                        <h2>General Manager </h2>
+                        <p>🧑‍💼 General Manager (GM) – Handles the complete day-to-day running of the hotel. The GM
+                            looks after staff, guest satisfaction, and quality of services in every department.</p>
+                    </div>
+                    <p class="mb-1 text-center"><i class="fa-regular fa-clock " style="color: orange;"></i> 08:00 -
+                        18:00</p>
+                    <p class="mb-2 text-center"><i class="fa-solid fa-phone " style="color: orange;"></i> +91
+                        486-153-4862</p>
+                    <div class="d-flex my-2 mx-2">
+                        <div>
+                            <img src="download.png" class="rounded-circle shadow" alt="responsive image" width="75px"
+                                height="75px">
+                        </div>
+                        <div>
+                            <h4 class="mx-2 my-1">Prit godhani</h4>
+                            <p class="mx-2 my-1">General Manager</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-extra-lg-6">
+                <!-- card-4 -->
+                <div class="card my-2" style=" background-color: black; color: white;">
+                    <i class="ser fa-solid fa-concierge-bell fa-2x text-center"> </i>
+                    <div class="card-body">
+                        <h2>Chairman / CEO</h2>
+                        <p>💼 The top leader of the hotel or hotel chain. The CEO controls all major operations,
+                            business
+                            strategies, and company growth.</p>
+                    </div>
+                    <p class="mb-1 text-center"><i class="fa-regular fa-clock " style="color: orange;"></i> 09:00 -
+                        14:00</p>
+                    <p class="mb-2 text-center"><i class="fa-solid fa-phone " style="color: orange;"></i> +91
+                        159-753-4589</p>
+                    <div class="d-flex my-2 mx-2">
+                        <div>
+                            <img src="download.png" class="rounded-circle shadow" alt="responsive image" width="75px"
+                                height="75px">
+                        </div>
+                        <div>
+                            <h4 class="mx-2 my-1">bhaktil kanani</h4>
+                            <p class="mx-2 my-1">Chairman / CEO</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-light my-3">
+        <div class="container-fluid">
+            <div class="row">
+
+
+                <div class="col-12 col-md-3 d-flex align-items-center my-2">
+                    <img src="harshchauhan.jpg" class="rounded-circle shadow" alt="responsive image" width="75px"
+                        height="75px">
+                    <div class="ms-3">
+                        <h4 class="my-1">Harsh Chauhan</h4>
+                        <p class="my-1">Web Developer</p>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-12 col-md-3 my-2">
+                    <h6 style="color: #f6b042;">Quick Links</h6>
+                    <ul class="list-unstyled" style="line-height:2;">
+                        <li><a href="#" class="text-decoration-none" style="color:#cfeff0;">Home</a></li>
+                        <li><a href="#" class="text-decoration-none" style="color:#cfeff0;">Services</a></li>
+                        <li><a href="profile.html" class="text-decoration-none" style="color:#cfeff0;">Profile</a></li>
+                        <li><a href="contact.html" class="text-decoration-none" style="color:#cfeff0;">Massage</a></li>
+                    </ul>
+                </div>
+
+                <!-- Follow Us -->
+                <div class="col-12 col-md-3 my-2">
+                    <h6 style="color: #f6b042;">Follow Us</h6>
+                    <div class="mb-3">
+                        <a href="https://instagram.com/_h_a_r_s_h_u_1106" class="me-2"
+                            style="font-size:20px; color:#E1306C;"><i class="fab fa-instagram"></i></a>
+                        <a href="https://facebook.com/Harsh Chauhan" class="me-2"
+                            style="font-size:20px; color:#1877F2;"><i class="fab fa-facebook"></i></a>
+                        <a href="tel:+918758609930" class="me-2" style="font-size:20px; color:#25D366;"><i
+                                class="fab fa-whatsapp"></i></a>
+                        <a href="https://github.com/harsh2006103/HarshChauhan" class="me-2"
+                            style="font-size:20px; color:#ffffff;"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <!-- contect -->
+                <div class="col-12 col-md-3 my-2">
+                    <h6 style="color: #f6b042;">contect Us</h6>
+                    <h5>Contact Us</h5>
+                    <p>
+                        <i class="bi bi-telephone-fill" style="color: orange;"></i> +91 87586 09930
+                    </p>
+                    <p>
+                        <i class="bi bi-envelope-fill" style="color: orange;"></i> harshchetanchuhan@gmail.com
+                    </p>
+                    <p>
+                        <i class="bi bi-geo-alt-fill" style="color: orange;"></i> Surat, Gujarat, India
+                    </p>
+                    <p>
+                        <i class="bi bi-person-badge-fill" style="color: orange;"></i> ID: HC12345
+                    </p>
+                </div>
+                <div class="col-12 my-2 text-center">
+                    <h2 style="color: #f6b042;">
+                        <p>Thank you for visiting my website</p>
+                    </h2>
+
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+
+
+</html>
